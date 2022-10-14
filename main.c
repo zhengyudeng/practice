@@ -7,6 +7,10 @@ void main(void)
     while(1)
     {
         printf("i = %d\r\n", i++);
+        if(i == 5)
+        {
+            i = 0;
+        }
     }
     
     return ;
