@@ -2,9 +2,11 @@
 
 void main(void)
 {
+    printf("hello world\r\n");
+    int i = 0;
     while(1)
     {
-        printf("hello world\r\n");
+        printf("i = %d\r\n", i++);
     }
     
     return ;
